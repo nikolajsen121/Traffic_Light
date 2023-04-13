@@ -1,5 +1,5 @@
 basic.forever(function () {
-    led.plot(3, 0)
+    basic.showIcon(IconNames.Heart)
     pins.digitalWritePin(DigitalPin.P0, 1)
     basic.pause(1000)
     pins.digitalWritePin(DigitalPin.P1, 1)
